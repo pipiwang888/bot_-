@@ -1,0 +1,22 @@
+# Local secrets
+.env
+dashboard_auth.json
+cloudflare_tunnel/
+
+# Runtime files
+*.log
+live_log.txt
+live_state*.json
+live_trades.json
+trade_records.sqlite3
+trade_records.sqlite3-*
+update_state.json
+runtime_state.json
+runtime_logs/
+multi_platform/data/
+
+# Build output
+build/
+dist/
+*.spec
+*.zip
